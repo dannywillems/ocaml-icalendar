@@ -6,3 +6,10 @@ interoperable calendar format.  This library implements functions to
 read and write them using OCaml.
 
 At the moment, the interface is minimal.  Please contribute!
+
+## How to build manually?
+
+```
+ocaml setup.ml -configure
+ocaml setup.ml -build
+```
